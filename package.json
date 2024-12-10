@@ -1,0 +1,30 @@
+{
+  "name": "football-reservation-platform",
+  "version": "1.0.0",
+  "description": "A platform for booking football courts",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "football",
+    "reservation",
+    "platform",
+    "express",
+    "mysql"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.11.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
